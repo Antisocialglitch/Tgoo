@@ -1,0 +1,705 @@
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-image: url(Assets/BACK.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    height: 100vh;
+    background-size: cover;
+ 
+}
+.header::after {
+ 
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(72, 72, 72, 0), rgba(158, 158, 158, 0), rgba(255, 255, 255, 0.918) );
+}
+
+.header-content{
+    color: rgba(255, 255, 255, 1);
+    height: 200px;
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+.header-content p{
+    line-height: 20px;
+    font-weight: 200;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.header-content button{
+margin-top: 30px;    
+color: rgba(255, 255, 255, 1);
+background-color: rgba(0, 166, 81, 1);
+width: 200px;
+height: 50px;
+border-radius: 10px;
+font-weight: 500;
+font-size: 20px;
+}
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+    height: 1000px;
+}
+
+
+.logo{
+    width: 70px;
+}
+.profile{
+    width: 40px;
+}
+.star{
+    width: 36px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255) ;
+    font-weight: 500;
+    font-size: 17px;
+   
+    
+}
+.service{
+    
+    text-align: center;
+    margin-top: 200px;
+ 
+   
+}
+h2{
+    
+    font-size: 36px;
+}
+ h3{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+   
+   
+
+    
+}
+.cardcontainer{
+    margin-top:30px;
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+  
+   
+
+    
+    
+}
+.card1{
+    height: 200px;
+    width: 400px;
+    background-color:rgba(249, 249, 249, 1) ;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    color:rgba(0, 0, 0, 1) ;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 200;
+   
+ 
+
+}
+.ticket{
+   position: relative;
+    top: 2px;
+    left: 0px;
+    width: 40px;
+    height: 35px;
+    padding-top: 20px;
+   margin-bottom: 30px;
+
+  
+}
+.card2{
+    height: 200px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    color:rgba(0, 0, 0, 1) ;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 200;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.15);
+
+}
+.hotel{
+    position: relative;
+     top: 2px;
+     left: 0px;
+     width: 35px;
+     height: 35px;
+     padding-top: 20px;
+    margin-bottom: 30px;
+   
+}
+.card3{
+        height: 200px;
+        width: 400px;
+        background-color:rgba(249, 249, 249, 1) ;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px;
+        color:rgba(0, 0, 0, 1) ;
+        text-align: left;
+        font-size: 14px;
+        font-weight: 200;}
+        
+.tour{
+            position: relative;
+             top: 2px;
+             left: 0px;
+             width: 35px;
+             height: 35px;
+             padding-top: 20px;
+            margin-bottom: 30px;
+           
+             } 
+
+.info{
+    background-image: url(/Assets/wmap.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    height: 100vh;
+    background-size: cover;
+    margin-top: 20px;
+    padding-top: 120px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 88, 83, 0.05)
+}
+.info p{
+    padding-top:10px ;padding-bottom: 10px;
+    
+   
+}
+.info h3{
+    padding-top:20px ;
+    font-size: 33px;
+}
+.infocard {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+}
+.infocard p{
+    font-size: 18px;
+}
+.infocard1{
+
+        height: 200px;
+        width: 200px;
+        background-color:rgba(255, 255, 255, 1) ;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px;
+        color:rgba(0, 0, 0, 1) ;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 25px;
+ 
+}
+.infocard2{
+
+    height: 200px;
+    width: 200px;
+    background-color:rgba(255, 255, 255, 1) ;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    color:rgba(0, 0, 0, 1) ;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 25px;
+
+}
+.infocard3{
+
+    height: 200px;
+    width: 200px;
+    background-color:rgba(255, 255, 255, 1) ;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    color:rgba(0, 0, 0, 1) ;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 25px;
+
+}
+.infocard4{
+
+    height: 200px;
+    width: 200px;
+    background-color:rgba(255, 255, 255, 1) ;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    color:rgba(0, 0, 0, 1) ;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 25px;
+
+}
+
+.container{
+    height: 100%;
+    margin: 0;
+    padding-top: 50px;
+   
+    
+}
+.containercontent{
+    
+    padding: 0px;
+
+    display: flex;
+    
+}
+
+
+.wmap2 img{
+    height: 100%;
+  
+} 
+.containercard{
+    height:100%;
+    margin-left: 100px;
+    padding-bottom: 20px;
+   
+   
+    
+}
+
+
+.firstcard{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+    width: 600px;
+    height: 220px;
+    border-radius: 15px;
+}
+
+.secondcard{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+    width: 600px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.15);
+    border-color: rgba(0, 0, 0, 0.08);
+}
+.cardp{
+    height: 220px;
+    width: 230px;
+    text-align: left;
+    padding-top: 20px;
+   
+    
+   
+}
+.cardp img{
+    width: 200px;
+    height: 200px;
+    
+}
+.cardpcontent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+
+.best {
+
+   padding-top: 50px;
+   background:rgba(236, 241, 240, 1) ;
+}
+
+
+.package{
+    
+    margin: 0;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: inherit;
+    height: 100%;
+    padding-left: 30px;
+   
+    align-items: center;
+    margin-top: 30px;
+   
+    
+    
+}
+.button{
+    display: inline-block;
+    width: 80px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(102, 102, 102, 1);
+
+   
+    
+}
+.button.green{
+    background:  rgb(0, 166, 81);
+}
+
+#bestcardparent{
+    height: 100%;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+}
+
+.bestcardone{
+    
+    height: 380px;
+    width: 360px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    /* padding-left: 20px; */
+    background: url(Assets/indone2.png);
+    background-position: center;
+    background-size: cover;
+
+}
+.cardcontent{
+    height: 151px;
+    width: 360px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    margin-top: 300px;
+    text-align: left;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:15px ;
+    background:rgba(255, 255, 255, 1) ;
+    
+    
+   
+    
+}
+.bestcardtwo{
+    
+   
+    height: 380px;
+    width: 360px;
+    
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background: url(Assets/japan.png);
+    background-position: center;
+    background-size: cover;
+
+}
+.bestcardthree{
+    
+    height: 380px;
+    width: 360px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background: url(Assets/mountains.png);
+    background-position: center;
+    background-size: cover;
+
+}
+.cardcontent h3{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(0, 0, 0, 1);
+    padding-top: 5px;
+    padding-left: 10px;
+    
+}
+.cardcontent h2{
+    font-weight:500px ;
+    font-size: 18px;
+    color:rgba(0, 0, 0, 1) ;
+    
+}
+.cardcontent p{
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.81);
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.bestcard-img{
+    height: 450px;
+    width: 400px;
+    padding-left: 10px;
+   
+}
+.bot{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 19px;
+    padding: 3px;
+    
+}
+.bot button{
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.01);
+    height: 20px;
+    width: 130px;
+    color: rgba(0, 0, 0, 0.81);
+    border-radius: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+.bot img{
+    width: 20px;
+    
+}
+#green{
+    background-color: rgb(0, 166, 81);
+    height: 60px;
+    width: 250px;
+    margin: 70px;
+    border-radius: 10px;
+    color:rgba(255, 255, 255, 1) ;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.book{
+    padding: 20px;
+    padding-top: 50px;
+}
+.book h3{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    
+}
+.bestcardinfocontent h4{
+   
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.bestcontent{
+    height: 400px;
+    padding: 50px 50px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+}
+.bestcardinfo{
+    height: inherit;
+    width: 400px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bestcardinfocontent{
+   height: 75px;
+    text-align: left;
+    color: rgba(94, 98, 130, 1);
+    font-size: 16px;
+}
+.bestcardinfocontent img{
+    float: left;
+    margin-right: 20px;
+}
+.bestcardimg{
+    
+    
+    height: 200px;
+}
+.bestcardimg img{
+    width: 480px;
+    position: relative;
+    bottom: 220px;
+    right: 170px;
+    
+}
+.review{
+    padding-top: 50px;
+    background: rgba(236, 241, 240, 1);
+    height: 600px;
+}
+.reviewscroll{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reviewscroll img{
+    height: 300px;
+    opacity: .5;
+}
+.reviewscrollcontent{
+    width:450px ;
+    height:200px ;
+    position: relative;
+    bottom: 200px;
+    left: 540px;
+    background-color:rgba(255, 255, 255, 1) ;
+   
+}
+
+.reviewscrollcontent p{
+    padding-top: 65px;
+}
+.reviewscrollcontent h3{
+    padding-top:20px ;
+    margin-top:  20px;
+}
+.face{
+    width: 200px;
+    position: relative;
+    bottom: 500px;
+    left: 680px;
+    
+  
+}
+#hmm{
+    height: 400px;
+    opacity: 1;
+}
+.footer{
+    height: 100vh;
+    padding: 10px;
+}
+.footerinfo h3{
+    font-weight: 500;
+    font-size: 29px;
+    margin-top: 25px;
+}
+.footerinfo{
+    padding: 30px;
+    padding-left: 70px;
+    height: 30%;
+    width:700px ;
+    background-color:rgba(213, 247, 231, 0.689);
+    border-radius:100px 10px 10px 10px ;
+    color:rgba(94, 98, 130, 1) ;
+    padding-top: 30px;
+    position: relative;
+    top: 100px;
+    left: 350px;
+    
+    
+  
+    
+}
+.footerinfo input{
+    height: 40px;
+    width: 275px;
+    border-radius: 8px;
+}
+.footerinfo button{
+ height: 40px;
+ width: 150px;
+ border-radius: 8px;
+ color: rgba(255, 255, 255, 1);
+ background:rgba(0, 166, 81, 1) ;
+ font-size: 15px;
+ padding: 10px;   
+
+}
+.footerlogo{
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    left:250px;
+}
+.footerlogo h4{
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    color: rgba(94, 98, 130, 1);
+}
+.breez{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    position: relative;
+    left: 601px;
+    top: 120px;
+}
+.breez li{
+    list-style: none;
+    color:rgba(94, 98, 130, 1) ;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+.breez h3{
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    text-align: left;
+}
